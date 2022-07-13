@@ -10,14 +10,15 @@
  
 <?php 
 
-$a = 0;
+$i = 0;
 
-for ($i=0; $i<51; $i++)
-{
-    $a = "Andrea Bicskei";
-}
+do {
+    
+    echo ("My name is Andrea");
+    $i++;
+} while ($i<51);
 
-echo ("My name is: $a");
+
 
 ?>
 
